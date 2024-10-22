@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-          //  Users user = new Users("asd", "sda@example.com", "Sm1234578").ShowInfo();
+            Users user = new Users("asd", "sda@example.com", "Sm1234578").ShowInfo();
           
 
             
@@ -18,10 +18,10 @@
             group.AddStudent(student1);
             group.AddStudent(student2);
 
-           /* foreach (var student in group.GetAllStudents())
+            foreach (var student in group.GetAllStudents())
             {
                 student.StudentInfo();
-            }*/
+            }
             
 
             Student foundStudent = group.GetStudent(1);
