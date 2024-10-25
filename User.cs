@@ -18,7 +18,7 @@ namespace ConsoleApp16
         private string _password;
 
         public int ID { get; set; }
-        protected Users(string fullName, string email, string password)
+        public Users(string fullName, string email, string password)
         {
             FullName = fullName;
             Email = email;
