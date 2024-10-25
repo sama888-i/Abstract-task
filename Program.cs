@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Users user = new Users("asd", "sda@example.com", "Sm1234578").ShowInfo();
+            Users user = new Users("asd", "sda@example.com", "Sm1234578");
           
 
             
